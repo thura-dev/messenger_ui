@@ -1,59 +1,83 @@
+html,body{
+     margin: 0px;
+     padding: 0px;
+}
+
 .mainContainer{
 max-width: 1024px;
 margin: 0 auto;
-}
-.header{
-display: flex;
-justify-content: space-between;
+/*👉height: 2000px;👈*/
 
 }
+
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+position: sticky;
+top: 0px;
+opacity: 0.8;
+background-color: #FAFAFA;
+border-bottom: 1px solid lightgray;
+
+}
+
 .titleHeader{
      margin-bottom: 15px;
 }
+
+
 .description{
      margin-bottom:20px ;
 }
+
 .logo{
-     width: 40px;
-     height: 40px;
+     width: 50px;
+     height: 50px;
 
 }
+
 .container{
      display: flex;
      flex-wrap: wrap;
-     /* width: 100%; */
-     /* background-color: blue; */ 
 }
+
+/* Footer CSS */
 .footer{
-     
      font-size: 30px;
      margin-top: 50px;
      text-align: center;
 }
+
 .left{
      
      display: inline-block;
      width: 50%;
      /* background-color: blue; */
 }
+
+
 .right{
 display: inline-block;
 width: 50%;
-/* background-color: red; */
-
 }
+
 .inner{
      width: 50%;
 }
+
+
 .rightImage{
      width: 150%;
-     
-     /* width: 100%; */
 }
 .appStore{
      width: 250px;
     height: 150px
 }
+
+
 .menuItem{
      text-transform: capitalize;
      text-decoration: none;
@@ -61,10 +85,14 @@ width: 50%;
      margin-left: 30px;
      font-size: 16px;
 }
+
+
 .menuItem:hover{
      border-bottom-style: solid;
      
 }
+
+
 .blockElement{
      display: block;
      margin-top: 10px;
@@ -78,12 +106,17 @@ width: 50%;
      outline: none;
 
 }
+
+
 .inputSpan{
      margin-bottom: 20px;
 }
+
+
 .password{
      margin-bottom: 20px;
 }
+
 .signInBtn{
      background-color: #0a7cff;
      border-radius: 24px;
@@ -94,9 +127,12 @@ width: 50%;
      width: 100px;
      
 }
+
 .mobileMenuContainer{
      display: none;
 }
+
+
 @media (max-width: 767px) {
      .menuContainer{
           display: none;
